@@ -1,0 +1,75 @@
+
+div.title {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+textarea {
+	font-size: 16px;
+	font-family: monospace;
+}
+
+table[name=contact-info] textarea {
+	height: 25px;
+	width: 500px;
+}
+
+table[name=skills] textarea {
+	width: 800px;
+	height: 50px;
+}
+
+table[name=experience] textarea {
+	width: 800px;
+	height: 400px;
+}
+
+table[name=projects] textarea {
+	width: 800px;
+	height: 200px;
+}
+
+table[name=education] textarea {
+	width: 600px;
+	height: 25px;
+}
+
+table[name=additional-info] textarea {
+	width: 800px;
+	height: 200px;
+}
+
+table[name=repositories] textarea[name=repo-name] {
+	width: 250px;
+	height: 25px;
+	font-size: 16px;
+}
+
+table[name=repositories] textarea[name=repo-link] {
+	width: 500px;
+	height: 25px;
+	font-size: 16px;
+}
+
+div.resume-submit {
+	margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input[type=submit].resume-submit {
+	width: 150px;
+  height: 25px;
+	/* position: fixed; */
+}
+
+label.repo-lable {
+	font-weight: bold;
+}
+
+td.title {
+	width: 800px;
+}
+
+a {
+	text-decoration: none;
+}

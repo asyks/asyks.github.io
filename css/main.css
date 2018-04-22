@@ -1,0 +1,129 @@
+
+header {
+    line-height: 2em;
+    padding: 2em 0em;
+}
+
+header a {
+    border: none;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+}
+
+header a:hover {
+    background:  #e81c4f;
+    color: white;
+    border-radius: none;
+}
+
+nav > ul {
+    padding: 0em; }
+
+nav > ul > li {
+	float: left;
+	display: block; 
+}
+
+nav ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #B3B3B3;
+}
+
+body {
+    max-width: 50em;
+	margin: 0 auto;
+	font-family: 'Merriweather Sans', sans-serif;
+    line-height: 1.5;
+    padding: 2em 1em;
+    color: #555;
+    font-size: 1.2em;
+}
+
+body a {
+	text-decoration: none;
+    color: #e81c4f;
+}
+
+div {
+    display: block;
+}
+
+div.social {
+    padding: 2em 0;
+    display: block;
+}
+
+div.social a {
+    width: 4em;
+    background: #F5F5F5;
+    color: #303030;
+	text-decoration: none;
+    margin: 0 .5em 0 0;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    padding: 1em 0em;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+    float: left;
+}
+
+div.social a:hover {
+    background: #e81c4f;
+    color: white;
+}
+
+div.social a.f:hover {
+    background: #3b5998;
+}
+
+div.social a.t:hover {
+    background: #4099FF;
+}
+
+div.social a.G+:hover {
+    background: ##dd4b39;
+}
+
+div.social a.Li:hover {
+    background: #0077B5;
+}
+
+div.social a.Gh:hover {
+    background: #333;
+}
+
+h2 {
+    margin: 0;
+	font-size: 1.2em;
+	font-weight: bold;
+    padding: 1em 0;
+}
+
+code,
+pre {
+    background: #eee;
+    border-bottom: 1px solid #d8dee9;
+    color: #a7adba;
+}
+
+code {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+}
+
+pre {
+    padding: 1em;
+    border-left: 2px solid #69c;
+}

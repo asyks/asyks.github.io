@@ -1,0 +1,34 @@
+
+h1 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: .5em;
+    font-weight: bold;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul.contact-info {
+    font-size: 1em;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.education {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

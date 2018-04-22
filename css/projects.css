@@ -1,0 +1,33 @@
+
+.project + .project {
+	margin: 1em 0em 0em 0em;
+}
+
+.project {
+	height: 20em;
+}
+
+.project-title {
+	float: left;
+	font-weight: bold;
+	padding: .5em .5em .5em 0em;
+}
+
+.project-desc {
+	float: left;
+	padding: .5em 0em .5em .5em;;
+}
+
+.project-img {
+	float: left;
+	padding: 1em 0em;
+}
+
+img {
+    max-width: 480px;
+    max-height: 265px;
+	border-left: 2px solid black;
+	border-bottom: 2px solid #555;
+	border-right: 1px solid #555;
+	border-top: 1px solid #555;
+}

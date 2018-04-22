@@ -1,0 +1,71 @@
+
+ul.messages {
+	margin: 0;
+	padding: 1em 0;
+}
+
+ul.messages > li {
+	display: block;
+	padding: .75em;
+	text-align: center;
+	margin: .25em 0;
+	color: #e69900;
+	background: #ffcc66;
+}
+
+ul.messages > li.success {
+	color: #009900;
+	background: #b3ffb3;
+}
+
+ul.messages > li.error {
+	color: #ff3333;
+	background: #ff8080;
+}
+
+form.contact-form {
+	margin: 1em 0;
+}
+
+form.contact-form p {
+	margin: .5em 0;
+	padding: 1em 0;
+}
+
+form.contact-form label {
+    display: block;
+	padding: .5em 0;
+}
+
+input[type=email] {
+	border: 0;
+	background-color: #F5F5F5;
+	padding: .5em;
+	color: #303030;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 1em;
+}
+
+textarea {
+	border: 0;
+	background-color: #F5F5F5;
+	padding: .5em;
+	color: #303030;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 1em;
+}
+
+input[type=submit] {
+	font-size: 1em;
+    border: none;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+}
+
+input[type=submit]:hover {
+    background:  #e81c4f;
+    color: white;
+    border-radius: none;
+}
