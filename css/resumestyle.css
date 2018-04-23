@@ -19,12 +19,20 @@ a {
     text-decoration: none;
 }
 
+div.resume {
+    width: 40em;
+}
+
 ul.contact-info {
     font-size: 1em;
     font-weight: bold;
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+ul.experience {
+    margin: 0;
 }
 
 ul.education {

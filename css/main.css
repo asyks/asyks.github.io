@@ -22,7 +22,8 @@ header a:hover {
 }
 
 nav > ul {
-    padding: 0em; }
+    padding: 0em;
+}
 
 nav > ul > li {
 	float: left;
@@ -42,6 +43,7 @@ nav ul li a {
 
 body {
     max-width: 50em;
+    min-width: 15em;
 	margin: 0 auto;
 	font-family: 'Merriweather Sans', sans-serif;
     line-height: 1.5;
