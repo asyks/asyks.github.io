@@ -10,20 +10,6 @@
 <link rel="stylesheet" type="text/css" href="css/main.css"/>
 <link rel="stylesheet" type="text/css" href="css/resumestyle.css">
 <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" async="true">
-  function loadFile(filePath) {
-    var result = null
-    var request = new XMLHttpRequest()
-    request.open('GET', filePath, true)
-    request.send();
-    if (request.status==200) {
-      result = request.responseText
-    }
-    return result
-  }
-
-  var loadedFile = loadFile('/json/resume.json')
-</script>
 </head>
 
 <body>
@@ -42,5 +28,7 @@
 <div id="main" class="main">
   <div class="resume"></div>
 </div>
+
+<script type="text/javascript" src="js/getResume.js"></script>
 
 </body>
