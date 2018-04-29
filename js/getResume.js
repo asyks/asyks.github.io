@@ -36,11 +36,16 @@ function parseJson (jsonStr) {
   return parsedJson
 }
 
+function writeResume (resumeObj) {
+  document.getElementById('resume').innerHTML = '<p>' + resumeObj + '</p>'
+}
+
 getRequest('GET', 'json/resume.json')
   .then(function (result) {
     console.log(result)
-    console.log(parseJson(result))
+
+    writeResume(result)
   })
   .catch(function (err) {
-    console.error(err.statusText)
+    console.error(err)
   })
