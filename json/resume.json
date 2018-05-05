@@ -19,10 +19,13 @@
       "schoolName": "Virginia Tech",
       "schoolLocation": "Blacksburg, VA",
       "graduationDate": "May 2009",
-      "Majors": [
-        "Economics",
-        "Finance"
-      ]
+      "degree": {
+        "type": "B.S.",
+        "majors": [
+          "Economics",
+          "Finance"
+        ]
+      }
     }
   ],
   "experience": [
@@ -31,7 +34,7 @@
       "company": "Urban Airship",
       "location": "Portland, OR",
       "startDate": "Oct. 2014",
-      "endDate": "to present",
+      "endDate": "present",
       "accomplishments": [
         "Deprecated MongoDB, and migrated platform usage data to PostgreSQL using JSONB field",
         "Maintained and optimized code for collecting, enriching, and aggregating customer audience data",
@@ -47,7 +50,7 @@
       "company": "Atlatl Software",
       "location": "Portland, OR",
       "startDate": "August 2013",
-      "endDate": "to Sept. 2014",
+      "endDate": "Sept. 2014",
       "accomplishments": [
         "Designed and developed a multitude of new features for a multi-tenanted web app and REST API",
         "Implemented numerous UI changes and customizations using Javascript, HTML, and CSS",
@@ -61,7 +64,7 @@
       "company": "Modea",
       "location": "Blacksburg, VA",
       "startDate": "October 2011",
-      "endDate": "to July 2013",
+      "endDate": "July 2013",
       "accomplishments": [
         "Built a project health web app using Python and JavaScript, and deployed on Google App Engine",
         "Developed an application for displaying web traffic data using python, Google App Engine, OAuth 2.0, and the Google API Client",

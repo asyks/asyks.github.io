@@ -31,19 +31,18 @@ function getRequest (method, url) {
 }
 
 function parseJson (jsonStr) {
-  var parsedJson = JSON.parse(jsonStr)
-
-  return parsedJson
+  return JSON.parse(jsonStr)
 }
 
-function writeResume (resumeObj) {
-  document.getElementById('resume').innerHTML = '<p>' + resumeObj + '</p>'
+function writeResume (resumeJson) {
+  var resumeObj = parseJson(resumeJson)
+  var resumeHtml = resumeJsontoHtml(resumeObj)
+
+  document.getElementById('resume').innerHTML = resumeHtml
 }
 
 getRequest('GET', 'json/resume.json')
   .then(function (result) {
-    console.log(result)
-
     writeResume(result)
   })
   .catch(function (err) {
