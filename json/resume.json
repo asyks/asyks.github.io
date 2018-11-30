@@ -9,10 +9,8 @@
   "skills": [
     "Python",
     "SQL",
-    "JavaScript",
-    "Groovy",
     "Bash",
-    "Linux"
+    "JavaScript"
   ],
   "education": [
     {
@@ -36,27 +34,24 @@
       "startDate": "Oct. 2014",
       "endDate": "present",
       "accomplishments": [
-        "Deprecated MongoDB, and migrated platform usage data to PostgreSQL using JSONB field",
-        "Maintained and optimized code for collecting, enriching, and aggregating customer audience data",
-        "Exposed customer business logic to internal services via REST API, and RPC over Protobuf server/client",
-        "Developed various services for routing platform usage data to third party Cloud SAAS products",
-        "Transitioned customer audience data collection service from a single REST API source to a dual source with REST API and RPC over Protobuf",
-        "Managed services running in GCP and AWS environments"
+        "Maintained and optimized the customer dashboard Python/Django modules responsible for collecting, aggregating, and enriching customer usage data",
+        "Designed, and developed HTTP/JSON APIs, and SQS queue workers for sending customer usage data to 3rd party cloud services",
+        "Created tooling for deploying and managing the Business System team's AWS infrastructure using CloudFormation and Ansible",
+        "Deprecated MongoDB, and migrated historical data to a PostgreSQL table with JSONB field",
+        "Oversaw Transition of customer audience data collection for billing to a single RPC over Protobuf source"
         ]
       },
     {
-
       "jobTitle": "Web Developer",
       "company": "Atlatl Software",
       "location": "Portland, OR",
       "startDate": "August 2013",
       "endDate": "Sept. 2014",
       "accomplishments": [
-        "Designed and developed a multitude of new features for a multi-tenanted web app and REST API",
-        "Implemented numerous UI changes and customizations using Javascript, HTML, and CSS",
+        "Designed, developed, and maintained a multi-tenanted Python/Django  web app with JS/JQuery front-end",
+        "Engaged in group code reviews, and pair programming with a small team of developers",
         "Utilized test-driven development methods by writing numerous automated unit and integration tests",
-        "Performed server administration tasks on multiple AWS EC2 instances running Nginx, uWSGI, and PostgreSQL",
-        "Optimized PostgreSQL database performance using Python database utilities"
+        "Managed, administrated, and optimized a service stack running  Nginx, uWSGI, and PostgreSQL in AWS"
       ]
     },
     {
@@ -66,9 +61,8 @@
       "startDate": "October 2011",
       "endDate": "July 2013",
       "accomplishments": [
-        "Built a project health web app using Python and JavaScript, and deployed on Google App Engine",
-        "Developed an application for displaying web traffic data using python, Google App Engine, OAuth 2.0, and the Google API Client",
-        "Implemented numerous Google Analytics and Google Tag Manager JavaScript implementations"
+        "Designed and developed GAE web apps for displaying project health, and web traffic data using Python and JS",
+        "Implemented numerous Google Analytics and Google Tag Manager JS deployments"
       ]
     },
     {
@@ -79,10 +73,9 @@
       "endDate": "Oct. 2011",
       "accomplishments": [
         "Reduced the time required to perform a weekly analysis of the business opportunity pipeline using an enterprise Database Management System",
-        "Facilitated the movement of medical records from servers at various Veteran Health Administration data hubs to a single data warehouse",
-        "Detected the cause of data quality issues within a wireless device datastore for the DIA's IT Commodity Office"
+        "Facilitated the movement of medical records from servers at various Veteran Health Administration data hubs to a single data warehouse"
       ]
     }
   ],
-  "additionalInfo": "Experienced with all phases of software development including: planning, implementation, and support; worked on projects that used an Agile development methodology; maintain Linux desktops and servers for personal and professional use; used Git and SVN; employed data management and statistics skills in all of my jobs; comfortable with web standards: JSON, HTML5, and CSS."
+  "additionalInfo": "I've maintained a personal Linux desktop (currently ubuntu 18.04) for years. I use Git for nearly everything. I'm familiar/comfortable with: JSON, HTML5, CSS, XML, YAML."
 }
