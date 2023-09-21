@@ -1,16 +1,15 @@
 {
   "name": "Aaron P. Sykes",
   "contactInfo": {
-    "address": "Portland, OR 97214",
     "phoneNumber": "757.656.9152",
     "email": "aaron@aaronsykes.com",
     "website": "aaronsykes.com"
   },
   "skills": [
     "Python",
-    "SQL",
-    "Bash",
-    "JavaScript"
+    "JavaScript",
+    "TypeScript",
+    "SQL"
   ],
   "education": [
     {
@@ -29,18 +28,19 @@
   "experience": [
     {
       "jobTitle": "Software Engineer/Senior Software Engineer",
-      "company": "Urban Airship",
+      "company": "Airship",
       "location": "Portland, OR",
       "startDate": "Oct. 2014",
       "endDate": "present",
       "accomplishments": [
-        "Maintained and optimized the customer dashboard Python/Django modules responsible for collecting, aggregating, and enriching customer usage data",
-        "Designed, and developed HTTP/JSON APIs, and SQS queue workers for sending customer usage data to 3rd party cloud services",
-        "Created tooling for deploying and managing the Business System team's AWS infrastructure using CloudFormation and Ansible",
-        "Deprecated MongoDB, and migrated historical data to a PostgreSQL table with JSONB field",
-        "Oversaw Transition of customer audience data collection for billing to a single RPC over Protobuf source"
-        ]
-      },
+        "Developed numerous features for the customer dashboard using: Python, Django, DRF, Typescript, React",
+        "Planned, developed, and oversaw the implementation of a third party OIDC auth provider for all customers",
+        "Contributed to modernization efforts, including: Python 3 migration, TypeScript transition, database and web server upgrades",
+        "Guided, and mentored fellow engineers in software development best practices",
+        "Participated in the architecting and planning of features and projects for a team of engineers",
+        "Developed, and maintained tooling for deploying and managing GCP, and AWS infrastructure"
+      ]
+    },
     {
       "jobTitle": "Web Developer",
       "company": "Atlatl Software",
@@ -48,10 +48,10 @@
       "startDate": "August 2013",
       "endDate": "Sept. 2014",
       "accomplishments": [
-        "Designed, developed, and maintained a multi-tenanted Python/Django  web app with JS/JQuery front-end",
+        "Developed, and maintained a multi-tenanted web app with Python/Django, and Javascript",
         "Engaged in group code reviews, and pair programming with a small team of developers",
         "Utilized test-driven development methods by writing numerous automated unit and integration tests",
-        "Managed, and optimized a service stack running Nginx, uWSGI, and PostgreSQL in AWS"
+        "Built, and maintained web infastructure including: Nginx, PostgreSQL, and AWS"
       ]
     },
     {
@@ -72,10 +72,10 @@
       "startDate": "June 2009",
       "endDate": "Oct. 2011",
       "accomplishments": [
-        "Reduced the time required to perform a weekly analysis of the business opportunity pipeline using an enterprise Database Management System",
-        "Facilitated the movement of medical records from servers at various Veteran Health Administration data hubs to a single data warehouse"
+        "Optimized a sales pipeline data analysis process using an enterprise database management system",
+        "Facilitated the creation of a data warehouse of epidemiological data for the Veteran Health Administration"
       ]
     }
   ],
-  "additionalInfo": "I've maintained a personal Linux desktop (currently ubuntu 18.04) for years. I use Git for nearly everything. I've had experience with: JSON, HTML5, CSS, XML, YAML."
+  "additionalInfo": "I'm a free and open software enthusiast, who's been using Linux for over 10 years."
 }

@@ -2,7 +2,7 @@
 
 var resume
 
-function resumeJsontoHtml (resumeObj) {
+function resumeJsontoHtml(resumeObj) {
   resume = resumeObj
   var email = resumeObj.contactInfo.email
 
@@ -11,7 +11,6 @@ function resumeJsontoHtml (resumeObj) {
 
   resumeHtml += '<ul class="contact-info"> '
   resumeHtml += '<li>' + resumeObj.name + '</li>'
-  resumeHtml += '<li>' + resumeObj.contactInfo.address + '</li>'
   resumeHtml += '<li>' + resumeObj.contactInfo.phoneNumber + '</li>'
   resumeHtml += '<li><a href="mailto:' + email + '">' + email + '</a></li>'
   resumeHtml += '</ul> '
@@ -20,8 +19,8 @@ function resumeJsontoHtml (resumeObj) {
   resumeHtml += '<p>' + resumeObj.skills.join(', ') + '</p>'
 
   resumeHtml += '<h2>EXPERIENCE</h2>'
-  resumeObj.experience.forEach( function (expObj) {
-    resumeHtml += '<h2>' 
+  resumeObj.experience.forEach(function (expObj) {
+    resumeHtml += '<h2>'
     resumeHtml += [
       expObj.jobTitle, expObj.company, expObj.location
     ].join(', ')
@@ -29,7 +28,7 @@ function resumeJsontoHtml (resumeObj) {
     resumeHtml += '</h2>'
 
     resumeHtml += '<ul class="experience">'
-    expObj.accomplishments.forEach( function (accomplishment) {
+    expObj.accomplishments.forEach(function (accomplishment) {
       resumeHtml += '<li>' + accomplishment + '</li>'
     })
     resumeHtml += '</ul> '
@@ -37,15 +36,15 @@ function resumeJsontoHtml (resumeObj) {
 
   resumeHtml += '<h2>EDUCATION</h2>'
   resumeHtml += '<ul class="education">'
-  resumeObj.education.forEach( function (edu) {
+  resumeObj.education.forEach(function (edu) {
     resumeHtml += '<li>'
-    resumeHtml +=  edu.schoolName + ', '
-    resumeHtml +=  edu.schoolLocation + ' '
-    resumeHtml +=  '(' + edu.graduationDate + ')'
+    resumeHtml += edu.schoolName + ', '
+    resumeHtml += edu.schoolLocation + ' '
+    resumeHtml += '(' + edu.graduationDate + ')'
     resumeHtml += '</li>'
     resumeHtml += '<li>'
-    resumeHtml +=  edu.degree.type + ', '
-    resumeHtml +=  'majors: ' + edu.degree.majors.join(', ')
+    resumeHtml += edu.degree.type + ', '
+    resumeHtml += 'majors: ' + edu.degree.majors.join(', ')
     resumeHtml += '</li>'
   })
   resumeHtml += '</ul> '
